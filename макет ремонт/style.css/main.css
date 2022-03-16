@@ -1,0 +1,305 @@
+
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+
+
+body{
+    /* min-width: 500px;
+    min-height: 500px; */
+    padding: 0;
+    margin: 0;
+    background: black;
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 67px;
+    
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+      
+}
+.nav-bar{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+     
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/MaskGroup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 332px;
+}
+.banner__links{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+}
+.banner__slesh{
+    font-size: 20px;
+    color:white
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 191px;
+}
+.text>span{
+    width: 600px;
+    margin-top:10px;
+}
+.project{
+    padding-top: 18px;
+    text-align: center;
+}
+.primer{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    padding-top: 40px;
+}
+ .primer-rabot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.primer-rabot>img{
+    border-radius: 5px;
+} 
+.cnopki{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+.button{
+    width: 220px;
+    height: 62px;
+    background-color:  black;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+ } 
+.oplata{
+    display: flex;
+    justify-content: center;
+    grid-template: 50% 50%;
+    display: grid;
+    height: 35px;
+    margin-top: 10px;
+}
+.red{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.blue{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 40px 40px;
+    padding-right: 10px;
+}
+.sroki{
+    display: flex;
+    justify-content: center;
+    grid-template: 50% 50%;
+    display: grid;
+    height: 35px;
+    margin-top: 10px;
+}
+.disain{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40px ;
+    justify-content: center;
+    
+}
+.disainy{
+    align-self: center;
+    text-align: center;
+    border: 1px;
+}
+.tabl{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+   
+    justify-content: center;
+    
+}
+.stolb{
+    
+   padding-top: 10px;
+    text-align: center;
+}
+.stolb>span{
+    padding: 5px;
+}
+.conteiner{
+    
+   display: grid;
+   grid-template-columns: 270px 270px 270px 270px;
+   grid-template-rows: 600px;
+   gap: 10px;
+   justify-content: center;
+}
+.box{
+    /* background-color: aliceblue; */
+    display: grid;
+    grid-template-rows: 130px;
+    place-items: center;
+}
+.box>span{
+    text-align: center;
+    
+}
+.kakRabotaem{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.kakRabotaem > h2 {
+    padding-top : 100px;
+}
+.conteiner2{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 610px;
+    gap: 15px;
+    justify-content: center;
+}
+.conteiner2-text{
+    display: grid;
+    grid-template-rows: 20% 50% 30%;
+    align-items: center;   
+}
+.conteiner2-img{
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+    "A A A A  C C C C"
+    "A A A A  C C C C"
+
+    "A A A A  C C C C"
+    "A A A A  C C C C";
+}
+.box-a{
+    grid-area: A;
+}
+.box-b{
+    grid-area: B;
+}
+.box-c{
+    grid-area: C;
+}
+.box-d{
+    grid-area: D;
+}
+.goranti{
+    height: 880px;
+    display: grid;
+    grid-template-columns: 1170px;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    
+}
+.end-box{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 25% 15% 60%;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.e-box{
+    
+    align-self: flex-end;
+}
+.end-box2{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 25% 15% 60%;
+    justify-content: center;
+
+}
+.end-box3{
+    display: grid;
+    grid-template-columns: 15% 15% 30%;
+    grid-template-rows: 365px;
+    justify-content: center;
+}
+.nash-adres{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.svyaz{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    align-items: center;
+}
+.socsety{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer{
+    height: 136px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
